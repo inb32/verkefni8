@@ -46,13 +46,13 @@ const text = (() => {
 
   // event handler fyrir það að breyta færslu
   function edit(e) {
-    
+    const vidbaetturtexti = document.createTextNode
   }
 
   // event handler fyrir það að klára að breyta færslu
   function commit(e) {
-    const textElement = document.createElement('item__text');
-    divElement.classList.add('text');
+    const textElement = document.createTextNode();
+    divElement.classList.add('vidbaetturtexti');
   }
 
   // fall sem sér um að bæta við nýju item
